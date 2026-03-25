@@ -1,6 +1,6 @@
 <h1>こんにちは 👋</h1>
 
-# Jun | $\text{Math × AI}$
+# $\text{Jun | Math × AI}$
 
 PhD student in Mathematics at NUS.  
 Interested in machine learning, formal theorem proving, and AI for mathematics.
