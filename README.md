@@ -1,6 +1,6 @@
 # こんにちは 👋
 
-# John | Math × AI
+# Jun | Math × AI
 
 PhD student in Mathematics at NUS.  
 Interested in machine learning, formal theorem proving, and AI for mathematics.
