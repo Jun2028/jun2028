@@ -2,7 +2,7 @@
 
 #  𝗝𝘂𝗻 | 𝗠𝗮𝘁𝗵 × 𝗔𝗜 
 
-PhD student in Mathematics at NUS.  
+PhD student in Mathematics at NUS, Singapore.  
 Interested in machine learning, formal theorem proving, and AI for mathematics.
 
 ## Working on
