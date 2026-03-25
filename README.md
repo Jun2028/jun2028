@@ -9,25 +9,11 @@ Interested in machine learning, formal theorem proving, and AI for mathematics.
 - Lean 4 / mathlib
 - LLMs-based proof generation and checking
 - ML systems for mathematical reasoning
-- Research tooling for formal methods
+- evaluator-guided search (e.g. AlphaEvolve)
 
 ## Interested in
-- theorem proving
+- AI theorem proving
 - autoformalization
-- evaluator-guided search (e.g. AlphaEvolve)
 - agentic research workflows
 - scalable reasoning systems
-<!--
-**Jun2028/jun2028** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- Research tooling for formal methods
