@@ -1,6 +1,6 @@
 <h1>こんにちは 👋</h1>
 
-#  Ｊｕｎ | Ｍａｔｈ × ＡＩ  ／   
+#  𝙹𝚞𝚗 | 𝙼𝚊𝚝𝚑 × 𝙰𝙸
 
 PhD student in Mathematics at NUS, Singapore.  
 Interested in machine learning, formal theorem proving, and AI for mathematics.
