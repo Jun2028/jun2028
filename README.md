@@ -10,7 +10,5 @@ Interested in machine learning, formal theorem proving, and AI for mathematics.
 - LLMs-based proof generation and scoring
 - ML systems for mathematical reasoning
 - evaluator-guided search (e.g. AlphaEvolve)
-
-## Interested in
 - autoformalization
 - agentic research workflows
