@@ -7,7 +7,7 @@ Interested in machine learning, formal theorem proving, and AI for mathematics.
 
 ## Working on
 - Lean 4 / mathlib
-- Agentic systems for mathematical reasoning (AlphaProof Nexus)
+- Agentic systems for mathematical reasoning (e.g. [AlphaProof Nexus](https://arxiv.org/html/2605.22763v1))
 - evaluator-guided search (e.g. AlphaEvolve, [EvE](https://github.com/scaling-group/eve))
 - autoformalization
 - agentic research workflows
