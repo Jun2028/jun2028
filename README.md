@@ -2,7 +2,7 @@
 
 #  ᴊᴜɴ | ᴀɪ4ᴍᴀᴛʜ
 
-PhD student in Mathematics at [NUS, Singapore](https://www.math.nus.edu.sg/) (S17-05-23).  
+PhD student in Mathematics at [NUS, Singapore](https://www.math.nus.edu.sg/) (Office: S17-05-23).  
 Once a pure math student, now focused on machine learning, and AI for mathematics.
 
 ## Working on
