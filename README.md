@@ -3,7 +3,7 @@
 #  ᴊᴜɴ | ᴀɪ4ᴍᴀᴛʜ
 
 PhD student in Mathematics at [NUS, Singapore](https://www.math.nus.edu.sg/) (Office: S17-05-23).  
-Once a pure math student, now focused on machine learning, and AI for mathematics.
+Once pen-and-paper, now focused on machine learning, and AI for mathematics.
 
 ## Working on
 - Lean 4 / mathlib / formal theorem proving
