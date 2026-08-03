@@ -3,10 +3,10 @@
 #  ᴊᴜɴ | ᴀɪ4ᴍᴀᴛʜ
 
 PhD student in Mathematics at [NUS, Singapore](https://www.math.nus.edu.sg/).  
-Once a pure math student, now interested in machine learning, formal theorem proving, and AI for mathematics.
+Once a pure math student, now focused on machine learning, and AI for mathematics.
 
 ## Working on
-- Lean 4 / mathlib
+- Lean 4 / mathlib / formal theorem proving
 - Agentic systems for mathematical reasoning (e.g. Team S17 on [IGP24](competition.sair.foundation/competitions/igp24/leaderboard))
 - evaluator-guided search (e.g. AlphaEvolve, [EvE](https://github.com/scaling-group/eve))
 - autoformalization
