@@ -1,8 +1,6 @@
 <h1>こんにちは / 你好 / Hello! 👋</h1>
 
-#  ᴊᴜɴ | ᴀɪ4ᴍᴀᴛʜ
-
-PhD student in Mathematics at [NUS, Singapore](https://www.math.nus.edu.sg/) (Office: S17-05-23).  
+I am a PhD student in Mathematics at [NUS, Singapore](https://www.math.nus.edu.sg/) (Office: S17-05-23).  
 Once pen-and-paper, now focused on machine learning, and AI for mathematics.
 
 ## Working on
