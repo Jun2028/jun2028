@@ -7,7 +7,7 @@ Once pen-and-paper, now focused on machine learning, and AI for mathematics.
 
 ## Working on
 - Lean 4 / mathlib / formal theorem proving
-- Agentic systems for mathematical reasoning (e.g. Team S17 on [IGP24](https://competition.sair.foundation/competitions/igp24/leaderboard))
+- Agentic systems for mathematical reasoning and discovery (e.g. Team S17 on [SAIR IGP24 Comp](https://competition.sair.foundation/competitions/igp24/leaderboard))
 - evaluator-guided search (e.g. AlphaEvolve, [EvE](https://github.com/scaling-group/eve))
 - autoformalization
 - agentic research workflows
