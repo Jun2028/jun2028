@@ -1,8 +1,8 @@
 <div><picture><source media="(max-width: 540px)" srcset="assets/top-mobile.svg"><img src="assets/top.svg" width="100%" alt=""></picture></div>
 
-<div><picture><source media="(max-width: 540px)" srcset="assets/left-mobile.svg"><img src="assets/left.svg" align="left" width="24" alt=""></picture><picture><source media="(max-width: 540px)" srcset="assets/right-mobile.svg"><img src="assets/right.svg" align="right" width="24" alt=""></picture></div>
+<li type="none"><div align="center"><summary><h2>こんにちは / 你好 / Hello! <picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/waving-hand.png"><img src="assets/waving-hand.gif" alt="👋" width="25" height="25" align="absmiddle"></picture></h2></summary></div></li>
 
-<li type="none"><div align="center"><summary><h1>こんにちは<br>你好 / Hello!&nbsp;&#8288;<picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/waving-hand.png"><img src="assets/waving-hand.gif" alt="👋" width="34" height="34" align="absmiddle"></picture></h1></summary></div></li>
+<div><picture><source media="(max-width: 540px)" srcset="assets/left-mobile.svg"><img src="assets/left.svg" align="left" width="24" alt=""></picture><picture><source media="(max-width: 540px)" srcset="assets/right-mobile.svg"><img src="assets/right.svg" align="right" width="24" alt=""></picture></div>
 
 <p align="center">
   I am a PhD student in Mathematics at <a href="https://www.math.nus.edu.sg/about/">NUS, Singapore</a> (Office: S17-05-23).<br>
