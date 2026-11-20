@@ -16,16 +16,16 @@ I’m a mathematics PhD student at the [National University of Singapore](https:
 config:
   flowchart:
     minNodeWidth: 0
-    nodeSpacing: 18
-    rankSpacing: 28
-    padding: 8
+    nodeSpacing: 12
+    rankSpacing: 24
+    padding: 4
     diagramPadding: 6
 ---
 flowchart TB
     accTitle: Two searches for a universal conjecture
     accDescr: A conjecture branches into a search for a proof and a search for a counterexample. A counterexample can lead to a revision.
-    C(["∀ x, P(x)?"]) -->|prove| P["π : ∀ x, P(x)"]
-    C -->|refute| W["w with ¬P(w)"]
+    C(["∀ x, P(x)?"]) -->|refute| W["¬P(w)"]
+    C -->|prove| P["π"]
     W -.->|revise| C
 ```
 
