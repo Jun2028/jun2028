@@ -1,32 +1,27 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/mathematics-dark.jpg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/mathematics-light.jpg">
-  <img src="./assets/mathematics-light.jpg" alt="AI for mathematics. A curved surface made of straight teal threads." width="100%">
-</picture>
-
 ## こんにちは / 你好 / Hello! 👋
 
 I’m a mathematics PhD student at the [National University of Singapore](https://www.math.nus.edu.sg/about/) (office S17-05-23). I started with pen-and-paper proofs and now work on machine learning for mathematical reasoning and discovery.
 
-<table>
-  <thead>
-    <tr>
-      <th align="left" width="700">Research</th>
-      <th align="left" width="220">Tools and examples</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Formal theorem proving</strong><br>How language models find machine-checkable proofs.</td>
-      <td><a href="https://lean-lang.org/">Lean 4</a> · <a href="https://github.com/leanprover-community/mathlib4">mathlib</a> · <a href="https://github.com/Jun2028/ProofConf">ProofConf</a></td>
-    </tr>
-    <tr>
-      <td><strong>Evaluator-guided search</strong><br>Using mathematical tests to refine examples and formulas.</td>
-      <td><a href="https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/">AlphaEvolve</a> · <a href="https://github.com/scaling-group/ASYS-PDE">ASYS</a></td>
-    </tr>
-    <tr>
-      <td><strong>Agentic research workflows</strong><br>How agents share partial results while pursuing different approaches to a problem.</td>
-      <td><a href="https://github.com/scaling-group/eve">EvE</a></td>
-    </tr>
-  </tbody>
-</table>
+<details>
+<summary><strong>1 open goal</strong> &nbsp; <code>⊢ human + AI &gt; AI</code></summary>
+
+Give two agents the same conjecture. One tries to prove it while the other looks for a counterexample.
+
+```mermaid
+flowchart LR
+    accTitle: Two searches for a universal conjecture
+    accDescr: One agent seeks a formal proof. Another looks for a counterexample, which the mathematician can use to revise the conjecture.
+    C(["∀ x, P(x)?"]) -->|prove| P["π : ∀ x, P(x)"]
+    C -->|refute| W["w with ¬P(w)"]
+    W -.->|revise the claim| C
+```
+
+If the search returns `w` and `hw : ¬ P w`, then `fun h => hw (h w)` is a Lean proof that the conjecture is false.
+
+</details>
+
+### Research
+
+- **Formal theorem proving** with language models, [Lean 4](https://lean-lang.org/), and [mathlib](https://github.com/leanprover-community/mathlib4).
+- **Evaluator-guided search** for mathematical examples and formulas. [AlphaEvolve](https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/) · [ASYS](https://github.com/scaling-group/ASYS-PDE)
+- **Research workflows** in which agents pursue different approaches to the same problem and share their results. [EvE](https://github.com/scaling-group/eve)
