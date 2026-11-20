@@ -1,29 +1,60 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="340" height="24" viewBox="0 0 340 24">
 <style>
-svg { color:#3d4144 }
-@media(prefers-color-scheme:dark) { svg { color:#c4c7c9 } }
-.quiet { opacity:.17 }
-@media(prefers-reduced-motion:reduce) { .moving { display:none } .quiet { opacity:.38 } }
+svg {color:#35393e} use {opacity:.13;animation:pass 14.4s linear infinite}
+@keyframes pass {0%,100% {opacity:.96} 4% {opacity:.63} 10% {opacity:.24} 17%,88% {opacity:.13} 96% {opacity:.52}}
+@media(prefers-color-scheme:dark) {svg {color:#cbd0d2}}
+@media(prefers-reduced-motion:reduce) {use {animation:none;opacity:.38}}
 </style>
 <defs>
-<g id="scroll">
-<path d="M0 0C5.1 .2 8.8 -1.1 13.1 -4.1C17.7 -7.4 20 -8.2 22.8 -7.4C25.8 -6.4 25.4 -3.2 23.3 -3.1C22.6 -3.1 22 -3.5 22 -4.1C23.4 -3.9 24.3 -4.9 23.9 -5.9C23.1 -8 19.7 -7.5 15 -3.5C10.8 .2 5.7 .8 0 .4Z"/>
-<path d="M7.5 -.4C14.4 -1 17.5 4.8 23.5 4.8C29.6 4.8 32.5 -.9 37.6 -.9C39.3 -.9 40.7 -.3 42 0" fill="none" stroke="white" stroke-width=".85"/>
-<path d="M16.3 1C20.8 3.1 23.7 3.1 26.1 1.5C24.4 4.4 19.9 4.5 16.3 1Z"/>
-</g>
-<mask id="engraving" maskUnits="userSpaceOnUse" x="0" y="0" width="340" height="24"><g fill="white" transform="translate(0 12)">
-<g><use xlink:href="#scroll" transform="translate(28 0) scale(0.992 1)"/><use xlink:href="#scroll" transform="translate(69.667 0) scale(0.992 -1)"/><use xlink:href="#scroll" transform="translate(111.333 0) scale(0.992 1)"/><path d="M153 0q3.4 0 5.1 -1.5" fill="none" stroke="white" stroke-width=".8"/></g>
-<g transform="translate(340 0) scale(-1 1)"><use xlink:href="#scroll" transform="translate(28 0) scale(0.992 1)"/><use xlink:href="#scroll" transform="translate(69.667 0) scale(0.992 -1)"/><use xlink:href="#scroll" transform="translate(111.333 0) scale(0.992 1)"/><path d="M153 0q3.4 0 5.1 -1.5" fill="none" stroke="white" stroke-width=".8"/></g>
-<g transform="translate(170 0)" stroke="white" fill="none" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><path d="M0 0C-3 -3.8 -5.5 -6.1 -8.5 -4.4C-12.3 -2.1 -10.4 4.7 -6.5 4.7C-2.1 4.7 2.2 -4.7 6.7 -4.7C11.1 -4.7 12.1 2.3 8.4 4.3C5.4 6 2.7 3.5 0 0Z"/></g>
-<g transform="" stroke="white" fill="none" stroke-linecap="round"><path d="M12 12 Q12 0 28 0" stroke-width=".95"/><path d="M15 11 Q15 3 25 3" stroke-width=".6"/></g>
-<g transform="translate(340 0) scale(-1 1)" stroke="white" fill="none" stroke-linecap="round"><path d="M12 12 Q12 0 28 0" stroke-width=".95"/><path d="M15 11 Q15 3 25 3" stroke-width=".6"/></g>
-</g></mask>
-<linearGradient id="light" gradientUnits="userSpaceOnUse" x1="0" x2="1930" y1="0" y2="0" spreadMethod="repeat">
-<stop stop-color="currentColor" stop-opacity="0"/><stop offset=".085" stop-color="currentColor" stop-opacity=".28"/>
-<stop offset=".15" stop-color="currentColor" stop-opacity=".87"/><stop offset=".18" stop-color="currentColor" stop-opacity=".65"/>
-<stop offset=".235" stop-color="currentColor" stop-opacity="0"/><stop offset="1" stop-color="currentColor" stop-opacity="0"/>
-<animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="1930 0" dur="14.4s" repeatCount="indefinite"/>
-</linearGradient>
+<path id="integral" d="M6.6 .9C3.3 -.7 4.1 5.5 3.1 10.3Q2.5 15 .5 13.2"/>
+<path id="compose" d="M5.8 6.7A2.3 2.3 0 1 1 1.2 6.7 2.3 2.3 0 1 1 5.8 6.7Z"/>
+<path id="sim" d="M.8 7.8Q2.6 4.2 5.1 6.7T9.2 5.8"/>
+<path id="y" d="M1.1 3.3C1.7 7.4 2.5 10.1 4.1 10 M8.4 3.5C6 9 4.4 14 .9 14"/>
+<path id="empty" d="M8.9 7A3.9 4.1 0 1 1 1.1 7 3.9 4.1 0 1 1 8.9 7Z M1.6 13 8.4 1"/>
+<path id="forall" d="M1 1 5 12 9 1 M2.6 5.5H7.3"/>
+<path id="cap" d="M1.2 11.1V7C1.2 .7 8.7 .7 8.7 7V11.1"/>
+<path id="in" d="M9 3H6C.4 3 .4 10.5 6 10.5H9 M2.1 6.7H8"/>
+<path id="sum" d="M10 2V1H1L6.4 6.7 1 12.2H10V11.2"/>
+<path id="equiv" d="M1.2 3.5H8.8 M1.2 6.7H8.8 M1.2 9.9H8.8"/>
+<path id="cup" d="M1.2 2.3V6.8C1.2 13.1 8.7 13.1 8.7 6.8V2.3"/>
+<path id="phi" d="M6.4 0.7 3.8 13.5 M4.8 3Q1.4 2.5 1.4 6.6C.9 11.4 8.1 12.6 8.8 7.2Q9.6 3.6 6.1 3.3"/>
+<path id="implies" d="M.7 5.1H9 M.7 8.2H9 M7.9 2.3 12 6.7 7.9 11.1"/>
+<path id="and" d="M.8 10.9 5 2.8 9.3 10.9"/>
+<path id="exists" d="M1 1.5H7.5V11.8H1 M2 6.6H7.5"/>
+<path id="sub" d="M8.9 2.2H6.2C-.5 2.2 -.5 11.2 6.2 11.2H8.9"/>
+<path id="sup" d="M1.1 2.2H4C10.7 2.2 10.7 11.2 4 11.2H1.1"/>
+<path id="inf" d="M7 7C4.7 3.4 2.5 2.8 1.3 5.2C-.3 8.6 2.4 11.7 4.8 9.2L9.4 4.7C12 2.4 14.1 5.6 12.7 8.6C11.5 11.2 9.4 10.6 7 7Z"/>
 </defs>
-<g mask="url(#engraving)"><rect class="quiet" width="100%" height="100%" fill="currentColor"/><rect class="moving" width="100%" height="100%" fill="url(#light)"/></g>
+<g fill="none" stroke="currentColor" stroke-width="1.22" stroke-linecap="round" stroke-linejoin="round">
+<use xlink:href="#integral" transform="translate(39.73 11.39) rotate(-16.1) scale(1.020) translate(-3.5 -6.5)" style="animation-delay:-1.093s"/>
+<use xlink:href="#compose" transform="translate(53.32 7.27) rotate(17.8) scale(0.571) translate(-3.5 -6.5)" style="animation-delay:-0.990s"/>
+<use xlink:href="#sim" transform="translate(61.72 16.34) rotate(26.3) scale(0.712) translate(-5 -6.5)" style="animation-delay:-0.926s"/>
+<use xlink:href="#y" transform="translate(72.50 9.23) rotate(-18.0) scale(0.775) translate(-4.5 -6.5)" style="animation-delay:-0.844s"/>
+<use xlink:href="#empty" transform="translate(82.94 16.34) rotate(36.7) scale(0.516) translate(-5 -6.5)" style="animation-delay:-0.765s"/>
+<use xlink:href="#forall" transform="translate(97.49 12.88) rotate(27.5) scale(1.105) translate(-5 -6.5)" style="animation-delay:-0.654s"/>
+<use xlink:href="#cap" transform="translate(108.99 16.56) rotate(-14.2) scale(0.535) translate(-5 -6.5)" style="animation-delay:-0.567s"/>
+<use xlink:href="#in" transform="translate(115.79 8.01) rotate(-29.6) scale(0.760) translate(-5 -6.5)" style="animation-delay:-0.515s"/>
+<use xlink:href="#compose" transform="translate(129.70 14.83) rotate(12.6) scale(0.854) translate(-3.5 -6.5)" style="animation-delay:-0.410s"/>
+<use xlink:href="#sim" transform="translate(136.09 7.59) rotate(-36.8) scale(0.541) translate(-5 -6.5)" style="animation-delay:-0.361s"/>
+<use xlink:href="#sum" transform="translate(153.29 10.98) rotate(-19.4) scale(1.112) translate(-5.5 -6.5)" style="animation-delay:-0.231s"/>
+<use xlink:href="#equiv" transform="translate(164.55 7.36) rotate(18.3) scale(0.541) translate(-5 -6.5)" style="animation-delay:-0.145s"/>
+<use xlink:href="#cup" transform="translate(172.62 16.33) rotate(22.8) scale(0.779) translate(-5 -6.5)" style="animation-delay:-0.084s"/>
+<use xlink:href="#cap" transform="translate(183.58 9.38) rotate(-12.3) scale(0.789) translate(-5 -6.5)" style="animation-delay:-0.001s"/>
+<use xlink:href="#in" transform="translate(194.02 16.92) rotate(34.6) scale(0.569) translate(-5 -6.5)" style="animation-delay:-14.321s"/>
+<use xlink:href="#phi" transform="translate(207.88 12.92) rotate(22.2) scale(1.125) translate(-5 -6.5)" style="animation-delay:-14.216s"/>
+<use xlink:href="#implies" transform="translate(220.03 16.65) rotate(-11.1) scale(0.541) translate(-6.5 -6.5)" style="animation-delay:-14.124s"/>
+<use xlink:href="#and" transform="translate(228.46 8.15) rotate(-24.9) scale(0.788) translate(-5 -6.5)" style="animation-delay:-14.060s"/>
+<use xlink:href="#equiv" transform="translate(239.41 15.14) rotate(17.8) scale(0.796) translate(-5 -6.5)" style="animation-delay:-13.976s"/>
+<use xlink:href="#cup" transform="translate(249.42 7.00) rotate(-31.2) scale(0.562) translate(-5 -6.5)" style="animation-delay:-13.900s"/>
+<use xlink:href="#exists" transform="translate(263.64 11.76) rotate(-23.4) scale(1.027) translate(-4 -6.5)" style="animation-delay:-13.792s"/>
+<use xlink:href="#sub" transform="translate(278.12 6.83) rotate(15.4) scale(0.588) translate(-5 -6.5)" style="animation-delay:-13.682s"/>
+<use xlink:href="#sup" transform="translate(282.18 16.28) rotate(29.4) scale(0.793) translate(-5 -6.5)" style="animation-delay:-13.652s"/>
+<use xlink:href="#implies" transform="translate(294.59 9.02) rotate(-6.6) scale(0.860) translate(-6.5 -6.5)" style="animation-delay:-13.557s"/>
+<use xlink:href="#and" transform="translate(303.28 16.92) rotate(29.8) scale(0.503) translate(-5 -6.5)" style="animation-delay:-13.491s"/>
+<use xlink:href="#inf" transform="translate(317.89 14.87) rotate(26.5) scale(1.067) translate(-7 -6.5)" style="animation-delay:-13.376s"/>
+<use xlink:href="#empty" transform="translate(321.93 26.93) rotate(-11.6) scale(0.541) translate(-5 -6.5)" style="animation-delay:-13.270s"/>
+<use xlink:href="#compose" transform="translate(8.77 26.59) rotate(-25.8) scale(0.746) translate(-3.5 -6.5)" style="animation-delay:-1.356s"/>
+<use xlink:href="#sim" transform="translate(20.66 19.09) rotate(16.2) scale(0.777) translate(-5 -6.5)" style="animation-delay:-1.262s"/>
+<use xlink:href="#y" transform="translate(23.70 8.62) rotate(-31.6) scale(0.577) translate(-4.5 -6.5)" style="animation-delay:-1.204s"/>
+</g>
 </svg>
