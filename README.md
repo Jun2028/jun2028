@@ -4,7 +4,7 @@
   <img src="./assets/mathematics-light.jpg" alt="AI for mathematics. A curved surface made of straight teal threads." width="100%">
 </picture>
 
-## こんにちは / 你好 / Hello! 👋
+## こんにちは / 你好 / Hello! 👋
 
 I’m a mathematics PhD student at the [National University of Singapore](https://www.math.nus.edu.sg/about/) (office S17-05-23). I started with pen-and-paper proofs and now work on machine learning for mathematical reasoning and discovery.
 
