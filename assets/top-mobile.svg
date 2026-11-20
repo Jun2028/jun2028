@@ -1,4 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="340" height="24" viewBox="0 0 340 24" preserveAspectRatio="none">
-<style>svg{color:#43474b}@media(prefers-color-scheme:dark){svg{color:#b3b7bc}} .light{animation:travel 14.4s linear -1.3s infinite} @keyframes travel{from{transform:translateX(-344.80px)}to{transform:translateX(2068.80px)}} @media(prefers-reduced-motion:reduce){.light{animation:none;opacity:0}}</style>
-<defs><mask id="ink" maskUnits="userSpaceOnUse" x="0" y="0" width="340" height="24"><image width="340" height="24" xlink:href="data:image/png;base64,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"/></mask><linearGradient id="lit" x2="1" y2="0"><stop stop-color="currentColor" stop-opacity="0"/><stop offset=".52" stop-color="currentColor" stop-opacity=".35"/><stop offset=".73" stop-color="currentColor" stop-opacity=".94"/><stop offset="1" stop-color="currentColor" stop-opacity="0"/></linearGradient></defs>
-<g mask="url(#ink)"><rect width="100%" height="100%" fill="currentColor" opacity=".11"/><g transform=""><rect class="light" width="344.8" height="24" fill="url(#lit)"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="340" height="24" viewBox="0 0 340 24">
+<style>
+svg { color: #424548; }
+use { opacity: .12; animation: light 14.4s linear infinite; }
+@keyframes light { 0%,100% {opacity:.90} 4% {opacity:.64} 9% {opacity:.29} 17%,88% {opacity:.12} 95% {opacity:.38} 98% {opacity:.79} }
+@media (prefers-color-scheme: dark) { svg {color:#c0c2c4} }
+@media (prefers-reduced-motion: reduce) { use {animation:none;opacity:.34} }
+</style>
+<defs>
+<path id="forall" d="M1 1 5 12 9 1 M2.6 5.5H7.3"/>
+<path id="x" d="M.7 4.2Q3.2 2.6 4.5 7.1T8 10.9 M8.3 3.4 1.1 11.5"/>
+<path id="in" d="M9 3H6C.4 3 .4 10.5 6 10.5H9 M2.1 6.7H8"/>
+<path id="exists" d="M1 1.5H7.5V11.8H1 M2 6.6H7.5"/>
+<path id="y" d="M1.1 3.3C1.7 7.4 2.5 10.1 4.1 10 M8.4 3.5C6 9 4.4 14 .9 14"/>
+<path id="lambda" d="M.8 1.6Q3.1 -.2 4.4 3.9L7.5 10.4Q8.4 12.3 9.6 11.2 M4.8 5.2 1.2 11.7"/>
+<path id="compose" d="M5.8 6.7A2.3 2.3 0 1 1 1.2 6.7 2.3 2.3 0 1 1 5.8 6.7Z"/>
+<path id="phi" d="M6.4 0.7 3.8 13.5 M4.8 3Q1.4 2.5 1.4 6.6C.9 11.4 8.1 12.6 8.8 7.2Q9.6 3.6 6.1 3.3"/>
+<path id="turn" d="M1.6 1.6V11.8 M1.6 6.7H9"/>
+<path id="and" d="M.8 10.9 5 2.8 9.3 10.9"/>
+<path id="implies" d="M.7 5.1H9 M.7 8.2H9 M7.9 2.3 12 6.7 7.9 11.1"/>
+<path id="sum" d="M10 2V1H1L6.4 6.7 1 12.2H10V11.2"/>
+<path id="partial" d="M2.5 1.5C6.8 -.8 9.3 4.7 7.1 9.3C5.2 13.6 .4 12.3 1.4 8.2C2 5.4 5.6 4.3 7.7 6.2"/>
+<path id="integral" d="M6.6 .9C3.3 -.7 4.1 5.5 3.1 10.3Q2.5 15 .5 13.2"/>
+<path id="cap" d="M1.2 11.1V7C1.2 .7 8.7 .7 8.7 7V11.1"/>
+<path id="empty" d="M8.9 7A3.9 4.1 0 1 1 1.1 7 3.9 4.1 0 1 1 8.9 7Z M1.6 13 8.4 1"/>
+<path id="cup" d="M1.2 2.3V6.8C1.2 13.1 8.7 13.1 8.7 6.8V2.3"/>
+<path id="alpha" d="M8.6 3.6C6.7 8.7 5.9 11.1 3.3 10.6C-.3 10 1.2 4.2 4 3.8C7.4 3.3 6.3 11.1 9.1 10.6"/>
+<path id="sim" d="M.8 7.8Q2.6 4.2 5.1 6.7T9.2 5.8"/>
+<path id="beta" d="M1.3 13.9 2.7 4.1C4.1 -1.3 10.2 .7 7.6 4.9Q6.7 6.2 4.7 6.3C10.7 5.8 8.2 13.7 2.7 10.6"/>
+<path id="nabla" d="M.9 2.1H10.1L5.5 12Z"/>
+<path id="propto" d="M9.8 3.7C6.2 2.1 5.5 11.7 2.2 10.1C-1.2 8.1 1.6 2.2 4.1 4.8C6.1 7.1 6.3 11.1 10 9.7"/>
+<path id="inf" d="M7 7C4.7 3.4 2.5 2.8 1.3 5.2C-.3 8.6 2.4 11.7 4.8 9.2L9.4 4.7C12 2.4 14.1 5.6 12.7 8.6C11.5 11.2 9.4 10.6 7 7Z"/>
+<path id="sub" d="M8.9 2.2H6.2C-.5 2.2 -.5 11.2 6.2 11.2H8.9"/>
+</defs>
+<g fill="none" stroke="currentColor" stroke-width="1.16" stroke-linecap="round" stroke-linejoin="round">
+<use xlink:href="#forall" transform="translate(39.00 10.60) rotate(-23.0) scale(0.87) translate(-5 -6.7)" style="animation-delay:-1.186s"/>
+<use xlink:href="#x" transform="translate(49.99 13.70) rotate(8.0) scale(0.73) translate(-4.5 -6.7)" style="animation-delay:-1.102s"/>
+<use xlink:href="#in" transform="translate(61.21 11.50) rotate(24.0) scale(0.92) translate(-5 -6.7)" style="animation-delay:-1.017s"/>
+<use xlink:href="#exists" transform="translate(75.18 13.40) rotate(23.0) scale(0.87) translate(-4 -6.7)" style="animation-delay:-0.911s"/>
+<use xlink:href="#y" transform="translate(85.30 10.30) rotate(-8.0) scale(0.73) translate(-4.5 -6.7)" style="animation-delay:-0.834s"/>
+<use xlink:href="#in" transform="translate(96.52 12.50) rotate(-24.0) scale(0.92) translate(-5 -6.7)" style="animation-delay:-0.748s"/>
+<use xlink:href="#lambda" transform="translate(111.37 10.60) rotate(-23.0) scale(0.87) translate(-5 -6.7)" style="animation-delay:-0.635s"/>
+<use xlink:href="#compose" transform="translate(121.63 13.70) rotate(8.0) scale(0.73) translate(-3.5 -6.7)" style="animation-delay:-0.557s"/>
+<use xlink:href="#phi" transform="translate(132.13 11.50) rotate(24.0) scale(0.92) translate(-5 -6.7)" style="animation-delay:-0.477s"/>
+<use xlink:href="#turn" transform="translate(146.98 13.40) rotate(23.0) scale(0.87) translate(-5 -6.7)" style="animation-delay:-0.364s"/>
+<use xlink:href="#and" transform="translate(158.33 10.30) rotate(-8.0) scale(0.73) translate(-5 -6.7)" style="animation-delay:-0.278s"/>
+<use xlink:href="#implies" transform="translate(171.31 12.50) rotate(-24.0) scale(0.92) translate(-6.5 -6.7)" style="animation-delay:-0.179s"/>
+<use xlink:href="#sum" transform="translate(187.99 10.60) rotate(-23.0) scale(0.87) translate(-5.5 -6.7)" style="animation-delay:-0.052s"/>
+<use xlink:href="#partial" transform="translate(199.42 13.70) rotate(8.0) scale(0.73) translate(-4.5 -6.7)" style="animation-delay:-14.365s"/>
+<use xlink:href="#integral" transform="translate(209.25 11.50) rotate(24.0) scale(0.92) translate(-3.5 -6.7)" style="animation-delay:-14.290s"/>
+<use xlink:href="#cap" transform="translate(222.72 13.40) rotate(23.0) scale(0.87) translate(-5 -6.7)" style="animation-delay:-14.188s"/>
+<use xlink:href="#empty" transform="translate(234.07 10.30) rotate(-8.0) scale(0.73) translate(-5 -6.7)" style="animation-delay:-14.101s"/>
+<use xlink:href="#cup" transform="translate(245.66 12.50) rotate(-24.0) scale(0.92) translate(-5 -6.7)" style="animation-delay:-14.013s"/>
+<use xlink:href="#alpha" transform="translate(260.51 10.60) rotate(-23.0) scale(0.87) translate(-5 -6.7)" style="animation-delay:-13.900s"/>
+<use xlink:href="#sim" transform="translate(271.87 13.70) rotate(8.0) scale(0.73) translate(-5 -6.7)" style="animation-delay:-13.814s"/>
+<use xlink:href="#beta" transform="translate(282.99 11.50) rotate(24.0) scale(0.92) translate(-4.5 -6.7)" style="animation-delay:-13.729s"/>
+<use xlink:href="#nabla" transform="translate(297.82 13.40) rotate(23.0) scale(0.87) translate(-5.5 -6.7)" style="animation-delay:-13.616s"/>
+<use xlink:href="#propto" transform="translate(310.26 10.69) rotate(-4.0) scale(0.73) translate(-5.5 -6.7)" style="animation-delay:-13.524s"/>
+<use xlink:href="#inf" transform="translate(321.55 19.15) rotate(-5.9) scale(0.92) translate(-7 -6.7)" style="animation-delay:-13.419s"/>
+<use xlink:href="#sub" transform="translate(329.40 33.92) rotate(12.0) scale(0.87) translate(-5 -6.7)" style="animation-delay:-13.292s"/>
+<use xlink:href="#partial" transform="translate(10.72 29.55) rotate(-38.9) scale(0.73) translate(-4.5 -6.7)" style="animation-delay:-1.455s"/>
+<use xlink:href="#integral" transform="translate(16.70 21.23) rotate(-44.9) scale(0.92) translate(-3.5 -6.7)" style="animation-delay:-1.381s"/>
+<use xlink:href="#cap" transform="translate(26.57 11.81) rotate(-30.2) scale(0.87) translate(-5 -6.7)" style="animation-delay:-1.278s"/>
+</g>
+</svg>
