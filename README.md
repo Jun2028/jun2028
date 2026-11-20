@@ -9,7 +9,7 @@
   I began in pen-and-paper, and now work on machine learning and AI for mathematics.
 </p>
 
-<h3 align="center">Research</h3>
+<h3 align="center"><ins>Research</ins></h3>
 
 <p align="center">
   Lean 4 / mathlib / formal theorem proving</p>
