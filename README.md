@@ -1,32 +1,15 @@
-## こんにちは / 你好 / Hello! 👋
+<div><picture><source media="(max-width: 540px)" srcset="assets/top-mobile.svg"><img src="assets/top.svg" width="100%" alt=""></picture></div>
 
-I’m a mathematics PhD student at the [National University of Singapore](https://www.math.nus.edu.sg/about/) (office S17-05-23). I started with pen-and-paper proofs and now work on machine learning for mathematical reasoning and discovery.
+<div><picture><source media="(max-width: 540px)" srcset="assets/left-mobile.svg"><img src="assets/left.svg" align="left" width="24" alt=""></picture><picture><source media="(max-width: 540px)" srcset="assets/right-mobile.svg"><img src="assets/right.svg" align="right" width="24" alt=""></picture></div>
 
-### Research
+<h1>こんにちは / 你好 / Hello!&nbsp;&#8288;<picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/waving-hand.png"><img src="assets/waving-hand.gif" alt="👋" width="36" height="36" align="absmiddle"></picture></h1>
 
-- **Formal theorem proving** with language models, [Lean 4](https://lean-lang.org/), and [mathlib](https://github.com/leanprover-community/mathlib4).
-- **Evaluator-guided search** for mathematical examples and formulas. [AlphaEvolve](https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/) · [ASYS](https://github.com/scaling-group/ASYS-PDE)
-- **Research workflows** in which agents pursue different approaches to the same problem and share their results. [EvE](https://github.com/scaling-group/eve)
+I am a PhD student in Mathematics at [NUS, Singapore](https://www.math.nus.edu.sg/about/) (Office: S17-05-23).<br>I began in pen-and-paper, and now work on machine learning and AI for mathematics.
 
-<details>
-<summary><code>⊢ human + AI &gt; AI</code></summary>
+## Research
+- Lean 4 / mathlib / formal theorem proving
+- Agentic systems for mathematical reasoning and discovery (e.g. Team S17 on [SAIR IGP24 Comp](https://competition.sair.foundation/competitions/igp24/leaderboard))
+- evaluator-guided search (e.g. AlphaEvolve, [EvE](https://github.com/scaling-group/eve), [ASYS](https://github.com/scaling-group/ASYS-PDE))
+- agentic research workflows
 
-```mermaid
----
-config:
-  flowchart:
-    minNodeWidth: 0
-    nodeSpacing: 12
-    rankSpacing: 24
-    padding: 4
-    diagramPadding: 6
----
-flowchart TB
-    accTitle: Two searches for a universal conjecture
-    accDescr: A conjecture branches into a search for a proof and a search for a counterexample. A counterexample can lead to a revision.
-    C(["∀ x, P(x)?"]) -->|refute| W["¬P(w)"]
-    C -->|prove| P["π"]
-    W -.->|revise| C
-```
-
-</details>
+<div><picture><source media="(max-width: 540px)" srcset="assets/bottom-mobile.svg"><img src="assets/bottom.svg" width="100%" alt=""></picture></div>
