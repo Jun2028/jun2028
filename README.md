@@ -1,6 +1,4 @@
-<div><picture><source media="(max-width: 540px)" srcset="assets/top-mobile.svg"><img src="assets/top.svg" width="100%" alt=""></picture></div>
-
-<li type="none"><div align="center"><summary><h2>こんにちは / 你好 / Hello! <picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/waving-hand.png"><img src="assets/waving-hand.gif" alt="👋" width="25" height="25" align="absmiddle"></picture></h2></summary></div></li>
+<div><picture><source media="(max-width: 540px)" srcset="assets/top-mobile.svg"><img src="assets/top.svg" width="100%" height="75" align="top" alt="こんにちは / 你好 / Hello! 👋"></picture></div>
 
 <div><picture><source media="(max-width: 540px)" srcset="assets/left-mobile.svg"><img src="assets/left.svg" align="left" width="24" alt=""></picture><picture><source media="(max-width: 540px)" srcset="assets/right-mobile.svg"><img src="assets/right.svg" align="right" width="24" alt=""></picture></div>
 
@@ -12,7 +10,7 @@
 <li type="none"><div align="center"><summary><h2><ins>Research</ins></h2></summary></div></li>
 
 <p align="center">
-  Lean 4 / mathlib / formal theorem proving</p>
+  Lean / mathlib / formal theorem proving</p>
 
 <p align="center">Agentic systems for mathematical reasoning and discovery<br>
   <small>(Team S17 on <a href="https://competition.sair.foundation/competitions/igp24/leaderboard">SAIR IGP24 Comp</a>)</small>
@@ -24,4 +22,4 @@
 <p align="center">Agentic research workflows
 </p>
 
-<div><picture><source media="(max-width: 540px)" srcset="assets/bottom-mobile.svg"><img src="assets/bottom.svg" width="100%" alt=""></picture></div>
+<div><picture><source media="(max-width: 540px)" srcset="assets/bottom-mobile.svg"><img src="assets/bottom.svg" width="100%" height="24" align="top" alt=""></picture></div>
