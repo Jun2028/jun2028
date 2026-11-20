@@ -12,14 +12,16 @@
 <h3 align="center">Research</h3>
 
 <p align="center">
-  Lean 4 / mathlib / formal theorem proving<br>
-  Agentic systems for mathematical reasoning and discovery<br>
+  Lean 4 / mathlib / formal theorem proving</p>
+
+<p align="center">Agentic systems for mathematical reasoning and discovery<br>
   <small>Team S17 on <a href="https://competition.sair.foundation/competitions/igp24/leaderboard">SAIR IGP24 Comp</a></small>
 </p>
 
 <p align="center">
-  Evaluator-guided search (AlphaEvolve, <a href="https://github.com/scaling-group/eve">EvE</a>, <a href="https://github.com/scaling-group/ASYS-PDE">ASYS</a>)<br>
-  Agentic research workflows
+  Evaluator-guided search (AlphaEvolve, <a href="https://github.com/scaling-group/eve">EvE</a>, <a href="https://github.com/scaling-group/ASYS-PDE">ASYS</a>)</p>
+
+<p align="center">Agentic research workflows
 </p>
 
 <div><picture><source media="(max-width: 540px)" srcset="assets/bottom-mobile.svg"><img src="assets/bottom.svg" width="100%" alt=""></picture></div>
