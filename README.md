@@ -1,15 +1,32 @@
-# ZHAI Jun
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/mathematics-dark.jpg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/mathematics-light.jpg">
+  <img src="./assets/mathematics-light.jpg" alt="AI for mathematics. A curved surface made of straight teal threads." width="100%">
+</picture>
 
-こんにちは / 你好 / Hello! 👋
+## こんにちは / 你好 / Hello! 👋
 
-I’m a mathematics PhD student in the [Scaling Group](https://scaling-group.github.io/) at the [National University of Singapore](https://www.math.nus.edu.sg/about/). I began with pen-and-paper work in logic, geometry, and number theory. Today I study how AI can help mathematicians find proofs and constructions.
+I’m a mathematics PhD student at the [National University of Singapore](https://www.math.nus.edu.sg/about/) (office S17-05-23). I started with pen-and-paper proofs and now work on machine learning for mathematical reasoning and discovery.
 
-## Research
-
-- **Formal theorem proving.** I use Lean 4 and mathlib to study how language models construct proofs and where their attempts break down.
-- **Evaluator-guided search.** How can a test for a mathematical property guide the search for an object that satisfies it?
-- **Research agents.** I’m interested in how teams of agents divide up a mathematical problem and build on one another’s partial results.
-
----
-
-[Academic site](https://jun2028.github.io/academic/) · [CV](https://jun2028.github.io/files/JUN_ZHAI_CV.pdf) · [ORCID](https://orcid.org/0009-0005-0627-0970) · Office S17-05-23
+<table>
+  <thead>
+    <tr>
+      <th align="left" width="700">Research</th>
+      <th align="left" width="220">Tools and examples</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Formal theorem proving</strong><br>How language models find machine-checkable proofs.</td>
+      <td><a href="https://lean-lang.org/">Lean 4</a> · <a href="https://github.com/leanprover-community/mathlib4">mathlib</a> · <a href="https://github.com/Jun2028/ProofConf">ProofConf</a></td>
+    </tr>
+    <tr>
+      <td><strong>Evaluator-guided search</strong><br>Using mathematical tests to refine examples and formulas.</td>
+      <td><a href="https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/">AlphaEvolve</a> · <a href="https://github.com/scaling-group/ASYS-PDE">ASYS</a></td>
+    </tr>
+    <tr>
+      <td><strong>Agentic research workflows</strong><br>How agents share partial results while pursuing different approaches to a problem.</td>
+      <td><a href="https://github.com/scaling-group/eve">EvE</a></td>
+    </tr>
+  </tbody>
+</table>
