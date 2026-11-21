@@ -6,7 +6,7 @@
 
 <p align="center">
   I am a PhD student in Mathematics at <a href="https://www.math.nus.edu.sg/about/">NUS, Singapore</a> (Office: S17-05-23).<br>
-  I began in pen-and-paper, and now work on machine learning and AI for mathematics.
+  I began in pen-and-paper (logic, geometry, number theory, and physics) and now work on machine learning and AI.
 </p>
 
 <h3 align="center"><ins>Research</ins></h3>
