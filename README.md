@@ -12,7 +12,7 @@
 <h3 align="center"><ins>Research</ins></h3>
 
 <p align="center">
-  Lean 4 / mathlib / formal theorem proving</p>
+  Lean / mathlib / formal theorem proving</p>
 
 <p align="center">Agentic systems for mathematical reasoning and discovery<br>
   <small>(Team S17 on <a href="https://competition.sair.foundation/competitions/igp24/leaderboard">SAIR IGP24 Comp</a>)</small>
