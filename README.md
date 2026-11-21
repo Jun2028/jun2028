@@ -1,6 +1,6 @@
-<div><picture><source media="(max-width: 540px)" srcset="assets/top-mobile.svg"><img src="assets/top.svg" width="100%" alt=""></picture></div>
+<div><picture><source media="(max-width: 374px)" srcset="assets/mostowski-compact-top.svg"><source media="(max-width: 460px)" srcset="assets/mostowski-phone-top.svg"><source media="(max-width: 1100px)" srcset="assets/mostowski-mid-top.svg"><img align="top" width="100%" src="assets/mostowski-wide-top.svg" alt="Mostowski collapse theorem. Every well-founded extensional relation on a set has a unique transitive collapse."></picture></div>
 
-<div><picture><source media="(max-width: 540px)" srcset="assets/left-mobile.svg"><img src="assets/left.svg" align="left" width="24" alt=""></picture><picture><source media="(max-width: 540px)" srcset="assets/right-mobile.svg"><img src="assets/right.svg" align="right" width="24" alt=""></picture></div>
+<div><picture><source media="(max-width: 374px)" srcset="assets/mostowski-compact-left.svg"><source media="(max-width: 460px)" srcset="assets/mostowski-phone-left.svg"><source media="(max-width: 1100px)" srcset="assets/mostowski-mid-left.svg"><img align="left" width="22" src="assets/mostowski-wide-left.svg" alt=""></picture><picture><source media="(max-width: 374px)" srcset="assets/mostowski-compact-right.svg"><source media="(max-width: 460px)" srcset="assets/mostowski-phone-right.svg"><source media="(max-width: 1100px)" srcset="assets/mostowski-mid-right.svg"><img align="right" width="22" src="assets/mostowski-wide-right.svg" alt=""></picture></div>
 
 <h3 align="center">こんにちは / 你好 / Hello!&nbsp;&#8288;<picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/waving-hand.png"><img src="assets/waving-hand.gif" alt="👋" width="26" height="26" align="absmiddle"></picture></h3>
 
@@ -24,4 +24,4 @@
 <p align="center">Agentic research workflows
 </p>
 
-<div><picture><source media="(max-width: 540px)" srcset="assets/bottom-mobile.svg"><img src="assets/bottom.svg" width="100%" alt=""></picture></div>
+<div><picture><source media="(max-width: 374px)" srcset="assets/mostowski-compact-bottom.svg"><source media="(max-width: 460px)" srcset="assets/mostowski-phone-bottom.svg"><source media="(max-width: 1100px)" srcset="assets/mostowski-mid-bottom.svg"><img align="top" width="100%" src="assets/mostowski-wide-bottom.svg" alt=""></picture></div>
